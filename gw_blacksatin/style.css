@@ -1,0 +1,243 @@
+body { color: #464646; margin: 0; padding: 0; font-family: Tahoma; font-size: 9pt; background-color: black; }
+
+table {
+	width: 100%;
+}
+table td {
+	padding: 0;
+	border-width: 0;
+	vertical-align: top;
+}
+
+#Main {
+	background-color: #ffffff;
+	width: 90%;
+}
+#Top { background-color: #ffffff; width: 90%; }
+a {
+   color: black;
+   text-decoration: underline;}
+   
+a:hover {color: gray; text-decoration: underline;}
+
+h1 {font-size: 130%;}
+h2 {font-size: 120%;}
+h3 {font-size: 120%;}
+h4 {font-size: 110%;}
+h5 {font-size: 100%;}
+h6 {font-size: 90%;}
+
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+ul {
+	margin: 2px;
+	padding: 2px;
+	list-style: decimal inside;
+	text-align: left;
+}
+li { margin-left: 2px; list-style: square inside;}
+
+input.formButton {}
+input {
+	font-size: 10px;
+	color: #000000;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 4px;
+	background-color: #F7F7F7;
+}
+input:hover {
+}
+
+.item {
+	color: #0D0D0D;
+	margin-bottom: 15px;
+	border: 1px solid #CCCCCC;
+}
+.itemHead {
+	color: #242424;
+	padding-top: 8px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	font-size: 120%;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+
+.itemInfo {
+	text-align: right;
+	padding: 3px;
+}
+.itemTitle {font-size: 120%;}
+.itemTitle a { color: #666666; font-size: 15px; font-weight: 700; text-decoration: underline; }
+.itemTitle a:hover {
+	color: #3C3C3C;
+	text-decoration: none;
+}
+.itemPoster, .itemPostDate, .itemStats {font-size: 90%; color: #000000;}
+.itemBody {	padding: 5px;}
+.itemText {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.itemFoot {
+	text-align: right;
+	padding: 3px;
+	color: #000000;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {
+	color: #666666;
+	padding : 2px;
+	vertical-align : middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#leftcolumn { width: 170px; border-right: 1px solid #cccccc; font-size: 95%; background-color: #d8d8d8; }
+#rightcolumn { width: 150px; border-left: 1px solid #cccccc; font-size: 95%; background-color: #d8d8d8; }
+
+#leftcolumn th, #rightcolumn th {
+    color: #666666; vertical-align: middle; 
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;}
+#leftcolumn .blockTitle { padding: 10px 8px 3px; color: #eaeaea; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; background-image: url(images/title_bg.gif); background-repeat: repeat-x; background-position: left center; text-align: center; vertical-align: middle; height: 28px; }
+#rightcolumn .blockTitle { padding: 10px 8px 3px; color: #eaeaea; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; background-image: url(images/title_bg.gif); background-repeat: repeat-x; background-position: left center; text-align: center; vertical-align: middle; height: 28px; }
+#leftcolumn .blockContent, #rightcolumn .blockContent {
+	padding: 3px 5px;
+	margin-bottom: 15px;
+}
+
+#centercol {}
+
+#centercol .blockTitle { padding: 3px 5px; color: black; font-size: 14px; font-weight: bold; font-family: "Trebuchet MS"; background-image: url(images/square.gif); background-repeat: no-repeat; background-position: left center; text-indent: 10px; border-top: 1px solid #cccccc; border-bottom: 1px solid #999999; }
+
+#centercol .blockContent {
+	padding-top: 7px;
+	line-height: 1.5em;
+	margin-bottom: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+#centercolumn {}
+
+#centercolumn th { color: #666666; vertical-align: middle; border-bottom: 2px solid gray; }
+#centerCcolumn {padding: 0px 3px 1px 3px;}
+#centerLcolumn, #bottomLcolumn {width: 50%; padding: 0px 8px 0px 0px; border-right: 1px solid #cccccc;}
+
+#centerRcolumn,  #bottomRcolumn {width: 50%; padding: 0px 0px 0px 8px;}
+
+div#content {text-align: left; padding: 8px;}
+
+#mainmenu a { color: black; padding: 7px; font-weight: 700; background-image: url(images/pointer.gif); background-repeat: no-repeat; background-position: left center; text-decoration: none; border-color: #ffffff #c3c8cb #bababa #edeeef; border-style: solid; border-width: 1px; }
+#mainmenu a:hover {
+	color: gray;
+	background-color: #fff;
+	border-top: 1px solid #c3c8cb;
+	border-bottom: 1px solid #ffffff;
+	font-weight: bold;
+}
+#mainmenu a.menuTop, #mainmenu a.menuMain {padding-left: 8px; }
+td#mainmenu a.menuSub {
+    padding-left: 25px;
+	background-color: #F7F9F9;
+}
+
+td#mainmenu a.menuSub:hover {
+	background-color: #f0f0f0;
+}
+
+#usermenu a {
+	display: block;
+	color: #8D8D8D;
+	font-weight: normal;
+	text-decoration: none;
+	padding-bottom: 1px;
+
+}
+#usermenu a:hover {
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#usermenu a.menuTop {}
+#usermenu a.highlight {
+	background-color: silver;
+	color: #ffffff;
+}
+
+
+.outer {}
+.head {
+    font-weight: bold;
+	color: #4B4B4B;
+	background-color: #E8EAEC; 
+	padding: 2px 5px; }
+.even, tr.even td {
+	background-color: #F3F4F5;
+	padding: 2px 5px;
+	border: 1px solid #CCCCCC;
+	font-size: 95%;
+}
+.odd, tr.odd td {
+	background-color:  #FAFAFA;
+	padding: 2px 5px;
+	border: 1px solid #CCCCCC; 
+	font-size: 95%;
+}
+
+.foot {
+	padding: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; font-weight:bold; border: solid 1px silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.footer { padding: 8px 3px; text-align: center; font-weight: normal; color: #cccccc; text-decoration: none; font-size: 90%; }
+.footer a { text-decoration: none; font-weight: normal; color: white; text-align: center; }
+.footer a:hover {
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+select {
+	font-size: 10px;
+	margin-bottom: 4px;
+
+}
+.logo { background-color: white; background-image: url(images/logo.gif); background-repeat: no-repeat; background-position: left top; width: 370px; height: 88px; }
+.header_right { background-color: black; background-image: url(images/header_bg.gif); background-repeat: repeat-x; background-position: left top; text-align: right; vertical-align: middle; height: 88px; padding-right: 20px; }
+.header_links { color: silver; font-weight: 700; background-image: url(images/links_bg.gif); background-repeat: repeat-x; background-position: left top; text-decoration: none; vertical-align: middle; height: 34px; padding-left: 5px; }
+.header_links a { color: white; font-weight: 700; text-decoration: none; padding-left: 5px; width: 372px; height: 34px; vertical-align: middle; }
+.header_search { color: white; background-image: url(images/links_bg.gif); background-repeat: repeat-x; background-position: left top; text-align: right; vertical-align: middle; height: 34px; padding-right: 5px; }
